@@ -1,0 +1,29 @@
+.login {
+  background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/23/30/IpcZNP.jpg");
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-position: 50% 50%;
+  image-rendering: pixelated;
+}
+
+.login > button {
+  width: 300px;
+  background-color: #7289da;
+  color: #eff2f5;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+.login > button:hover {
+  background-color: #677bc4;
+  color: #eff2f5;
+}
+.login > div > img {
+  object-fit: contain;
+  height: 150px;
+}
